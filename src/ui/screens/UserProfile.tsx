@@ -76,9 +76,7 @@ const styles = StyleSheet.create({
 
 
 const mapStateToProps = state => ({
-    isLoading: state.trucksData.isLoading,
-    data: state.trucksData.data,
-    error: state.trucksData.error,
+    data: state.userData.data,
 });
 
 const mapDispatchProps = {
